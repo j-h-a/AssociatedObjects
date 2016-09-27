@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
-  s.name         = "AssociatedObjects"
-  s.version      = "0.1.0"
+  s.name         = "SwiftAssociatedObjects"
+  s.version      = "0.1.1"
 
   s.summary      = "Associated objects (and values) in pure Swift 3"
   s.description  = <<-DESC
