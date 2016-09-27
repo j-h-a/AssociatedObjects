@@ -12,6 +12,9 @@
 		69FB5B201D9A0D230045F5C5 /* AssociatedObjects.h in Headers */ = {isa = PBXBuildFile; fileRef = 69FB5B121D9A0D230045F5C5 /* AssociatedObjects.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		69FB5B2B1D9A0E3C0045F5C5 /* AssociatedObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FB5B291D9A0E3C0045F5C5 /* AssociatedObjects.swift */; };
 		69FB5B2C1D9A0E3C0045F5C5 /* WeakProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FB5B2A1D9A0E3C0045F5C5 /* WeakProxy.swift */; };
+		69FB5B301D9A125D0045F5C5 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 69FB5B2E1D9A125D0045F5C5 /* LICENSE */; };
+		69FB5B311D9A125D0045F5C5 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 69FB5B2F1D9A125D0045F5C5 /* README.md */; };
+		69FB5B331D9A131A0045F5C5 /* AssociatedObjects.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 69FB5B321D9A131A0045F5C5 /* AssociatedObjects.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +36,9 @@
 		69FB5B1F1D9A0D230045F5C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69FB5B291D9A0E3C0045F5C5 /* AssociatedObjects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssociatedObjects.swift; sourceTree = "<group>"; };
 		69FB5B2A1D9A0E3C0045F5C5 /* WeakProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeakProxy.swift; sourceTree = "<group>"; };
+		69FB5B2E1D9A125D0045F5C5 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		69FB5B2F1D9A125D0045F5C5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		69FB5B321D9A131A0045F5C5 /* AssociatedObjects.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AssociatedObjects.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,7 @@
 			children = (
 				69FB5B111D9A0D230045F5C5 /* AssociatedObjects */,
 				69FB5B1C1D9A0D230045F5C5 /* AssociatedObjectsTests */,
+				69FB5B2D1D9A122C0045F5C5 /* Publishing */,
 				69FB5B101D9A0D230045F5C5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +97,16 @@
 				69FB5B1F1D9A0D230045F5C5 /* Info.plist */,
 			);
 			path = AssociatedObjectsTests;
+			sourceTree = "<group>";
+		};
+		69FB5B2D1D9A122C0045F5C5 /* Publishing */ = {
+			isa = PBXGroup;
+			children = (
+				69FB5B2E1D9A125D0045F5C5 /* LICENSE */,
+				69FB5B2F1D9A125D0045F5C5 /* README.md */,
+				69FB5B321D9A131A0045F5C5 /* AssociatedObjects.podspec */,
+			);
+			name = Publishing;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,6 +203,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69FB5B301D9A125D0045F5C5 /* LICENSE in Resources */,
+				69FB5B331D9A131A0045F5C5 /* AssociatedObjects.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +222,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69FB5B311D9A125D0045F5C5 /* README.md in Sources */,
 				69FB5B2C1D9A0E3C0045F5C5 /* WeakProxy.swift in Sources */,
 				69FB5B2B1D9A0E3C0045F5C5 /* AssociatedObjects.swift in Sources */,
 			);
