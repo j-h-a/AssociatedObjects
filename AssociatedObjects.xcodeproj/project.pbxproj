@@ -14,7 +14,7 @@
 		69FB5B2C1D9A0E3C0045F5C5 /* WeakProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FB5B2A1D9A0E3C0045F5C5 /* WeakProxy.swift */; };
 		69FB5B301D9A125D0045F5C5 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 69FB5B2E1D9A125D0045F5C5 /* LICENSE */; };
 		69FB5B311D9A125D0045F5C5 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 69FB5B2F1D9A125D0045F5C5 /* README.md */; };
-		69FB5B331D9A131A0045F5C5 /* AssociatedObjects.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 69FB5B321D9A131A0045F5C5 /* AssociatedObjects.podspec */; };
+		69FB5B331D9A131A0045F5C5 /* SwiftAssociatedObjects.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 69FB5B321D9A131A0045F5C5 /* SwiftAssociatedObjects.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,7 @@
 		69FB5B2A1D9A0E3C0045F5C5 /* WeakProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeakProxy.swift; sourceTree = "<group>"; };
 		69FB5B2E1D9A125D0045F5C5 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		69FB5B2F1D9A125D0045F5C5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		69FB5B321D9A131A0045F5C5 /* AssociatedObjects.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AssociatedObjects.podspec; sourceTree = "<group>"; };
+		69FB5B321D9A131A0045F5C5 /* SwiftAssociatedObjects.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SwiftAssociatedObjects.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +104,7 @@
 			children = (
 				69FB5B2E1D9A125D0045F5C5 /* LICENSE */,
 				69FB5B2F1D9A125D0045F5C5 /* README.md */,
-				69FB5B321D9A131A0045F5C5 /* AssociatedObjects.podspec */,
+				69FB5B321D9A131A0045F5C5 /* SwiftAssociatedObjects.podspec */,
 			);
 			name = Publishing;
 			sourceTree = "<group>";
@@ -204,7 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				69FB5B301D9A125D0045F5C5 /* LICENSE in Resources */,
-				69FB5B331D9A131A0045F5C5 /* AssociatedObjects.podspec in Resources */,
+				69FB5B331D9A131A0045F5C5 /* SwiftAssociatedObjects.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +428,7 @@
 				69FB5B251D9A0D230045F5C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		69FB5B261D9A0D230045F5C5 /* Build configuration list for PBXNativeTarget "AssociatedObjectsTests" */ = {
 			isa = XCConfigurationList;
@@ -436,6 +437,7 @@
 				69FB5B281D9A0D230045F5C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
